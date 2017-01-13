@@ -1,0 +1,86 @@
+body {
+	background: #000;
+}
+
+div#page {
+	margin:none;
+	width: 100%;
+}
+
+div#candywrapper{
+	width: 100%;
+	height:180px;
+	background: pink;
+
+}
+
+div.bar {
+	height:180px;
+}
+
+div#left.bar{
+  background-image: url(barleft.jpg), url(farleft.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: right 412px top 0px, right;
+  float: left;
+  margin-right:-413px;
+  width:50%;
+  clear:none;
+}
+
+div#right.bar{
+	background-image: url(barright.jpg), url(farright.jpg);
+	background-repeat: no-repeat, repeat-x;
+	background-position: left 412px top 0px, left;
+	margin-left:-413px;
+	width:50%;
+	float: right;
+	clear: none;
+}
+
+div#island{
+    background: red;
+    width: 826px;
+    height: 180px;
+    clear:none;
+    float: left;
+}
+
+div#logo.bar {
+	width:449px;
+	background-image:url(logo.jpg);
+	background-repeat: no-repeat;
+	float:left;
+}
+
+div#nav.bar {
+	width:377px;
+	background-image:url(navigation.jpg);
+	background-repeat: no-repeat;
+	float:left;
+}
+
+div.navhit {
+	width:90px;
+	height:140px;
+	margin-top:30px;
+	margin-bottom:10px;
+	float:left;
+}
+
+
+
+div#content {
+	padding-top:10px;
+	padding-bottom:40px;
+	width:100%;
+	height: auto;
+	background: white;
+}
+
+div#depsplash {
+	margin:auto;
+	align:center;
+	width:753px;
+	
+}
